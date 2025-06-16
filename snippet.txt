@@ -1,0 +1,22 @@
+<model-viewer src="SP3 model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.3334370085938425m 0.8462036807553763m -0.7071877933095836m" data-normal="0m 0.6333888941170231m -0.7738336441440204m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Docking Product</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.25993580272648736m 0.6283283428745657m -0.709239684942294m" data-normal="0.7347874938751521m -0.6194727203993747m -0.27629854781679847m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Exterior Base</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="-0.3500025951768208m 0.7775430834568121m -0.38055726702014725m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Wall</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.23826000625109112m 0.6439990376922818m -0.4367822432539711m" data-normal="0.9079671991197511m -0.4190412443141259m 0.000029770845355748603m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Interior Base</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.24984715384084427m 0.7170934164805192m -0.5145165398699922m" data-normal="0.8623690513620066m 0.46179914600279953m -0.2075118502738529m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Leaf Design</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
